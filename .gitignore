@@ -1,6 +1,5 @@
 # Binaries for programs and plugins
 main
-untitled19
 *.exe
 *.exe~
 *.so
@@ -10,11 +9,17 @@ untitled19
 # Ignore binary output folders
 bin/
 
-# Ignore common editor/system specific metadata
+# IDEs and editors
 .DS_Store
 .idea/
 .vscode/
 *.iml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 databases/*.sqlite
 databases/*.sqlite-shm

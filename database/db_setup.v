@@ -1,8 +1,8 @@
-module databases
+module database
 
 import db.sqlite
 
 pub fn create_db_connection() !sqlite.DB {
-	mut db := sqlite.connect('databases/realworld.sqlite')!
+	mut db := sqlite.connect('database/realworld.sqlite')!
 	return db
 }
